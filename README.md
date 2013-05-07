@@ -1,4 +1,4 @@
-apuntes_php
+Apuntes PHP
 ===========
 
 Apuntes y ejercicios de PHP
