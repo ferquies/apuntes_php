@@ -57,13 +57,15 @@
 						</form>
 					</td>
 				</tr>
-			</table>
-			<div>
-			<b>Carrito</b><br>
-			".$_SESSION["compra"]."
-			<b>Total: ".$_SESSION["total"]."</b>
-			</div>
-		</body>
+			</table>";
+			if(isset($_SESSION["compra"])) {
+				echo "<div>
+					<b>Carrito</b><br>
+					".$_SESSION["compra"]."
+					<b>Total: ".$_SESSION["total"]."</b>
+				</div>";
+			}
+		echo "</body>
 		</html>";
 	} else {
 		echo "<html>
