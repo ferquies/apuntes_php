@@ -10,7 +10,7 @@
 			</style>
 		</head>
 		<body>
-			<h1>Carrito de la compra</h1>
+			<h1 align='center'>Carrito de la compra</h1>
 			<table cellpadding='20'>
 				<tr>
 					<th>Articulos</th>
